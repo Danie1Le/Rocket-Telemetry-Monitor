@@ -23,7 +23,7 @@ repositories {
 }
 
 dependencies {
-	implementation(platform("software.amazon.awssdk:bom:2.57.11"))
+	implementation(platform("software.amazon.awssdk:bom:2.59.1"))
 	implementation("software.amazon.awssdk:sqs")
 	implementation("software.amazon.awssdk:dynamodb")
 	implementation("org.springframework.boot:spring-boot-starter-actuator")
